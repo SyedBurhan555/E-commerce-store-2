@@ -1,0 +1,17 @@
+.error{
+    text-align: center;
+    margin: auto;
+}
+.error-status{
+    font-weight: 300;
+    padding: 7px;
+}
+.error-btn{
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    padding: 14px 30px;
+    background-color:#5D3FD3;
+    color:white;
+    cursor: pointer;
+}

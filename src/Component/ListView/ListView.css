@@ -1,0 +1,32 @@
+.list-view {
+  height: auto;
+  margin-bottom: 24px;
+  cursor: pointer;
+  transition: all 1s;
+}
+.list-view:hover{
+    transform: scale(1.1);
+}
+.list-row {
+  display: flex;
+  gap: 22px;
+  margin: 5px;
+  justify-content: space-between;
+}
+.list-detial h3{
+  text-transform: capitalize;
+}
+.list-detial p {
+  margin: 5px auto;
+  font-size: 14px;
+}
+.list-price{
+  color:#5D3FD3;
+}
+.list-row img {
+  width: 50%;
+}
+.list-btn {
+  padding: 8px 30px;
+  border: none;
+}

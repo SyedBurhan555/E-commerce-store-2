@@ -1,0 +1,18 @@
+.feature-section{
+    width: 60%;
+    padding-top: 6%;
+    margin: auto;
+    gap: 12px;
+}
+.feature-section h5{
+    color:  #5D3FD3;
+    font-weight: 600;
+}
+.feature-section h1{
+    font-weight: 600;
+}
+.featured-cards{
+    display: flex;
+    justify-content: space-between;
+    gap:12px
+}

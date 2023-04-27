@@ -1,0 +1,12 @@
+.Pagination-link {
+  text-decoration: none;
+  font-size: 18;
+  margin-left: 38;
+}
+
+@media (max-width: 768px) {
+  .Pagination-link {
+    margin-left: 0;
+    padding: 6;
+  }
+}

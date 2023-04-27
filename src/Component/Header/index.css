@@ -1,0 +1,44 @@
+
+nav{
+    flex:1;
+    padding: 19px;
+    display: flex;
+    align-items: center;
+}
+nav .logo{
+    flex: 1.8;
+}
+ul{
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+    margin-right: 25px;
+    text-transform: uppercase;
+    font-weight: 600;   
+}
+ul li:hover{
+    color: #5D3FD3;
+    cursor: pointer;
+}
+ul .btn{
+    background-color:#5D3FD3;
+    border: none;
+    outline: none;
+    padding:10px;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 1px;
+}
+.fa-shopping-cart{
+    margin-left: 14px;
+    font-size: 28px;
+}
+
+@media (max-width:768px) {
+    nav,ul{
+        display: block;
+    }
+}

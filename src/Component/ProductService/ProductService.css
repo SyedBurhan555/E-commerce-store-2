@@ -1,0 +1,16 @@
+.product-services .service {
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 6px 7px;
+    border-radius: 10px;
+  }
+  .product-services ,.fa-truck ,.fa-truck-container,
+  .fa-recyle, .fa-shield-check {
+    font-size: 20px;
+    padding: 12px 0 0 0;
+  }
+  .product-services h5 {
+    font-weight: 500;
+    font-size: 11px;
+  }

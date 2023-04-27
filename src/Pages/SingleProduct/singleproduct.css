@@ -1,0 +1,141 @@
+.single-product {
+  flex: 1;
+  margin: 7% 0 20% 0;
+}
+.single-product-row {
+  display: flex;
+  gap: 40px;
+  width: 60%;
+  align-items: center;
+  margin: auto;
+}
+.single-product-images div img{
+  width: 100px;
+  height: 100px;
+}
+.single-product-images {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: 85%;
+  cursor: pointer;
+}
+.single-product-right-col-1,
+.single-product-left-col-1 {
+  flex-basis: 50%;
+  overflow: hidden;
+}
+.product-image {
+  width: inherit;
+  height: 100px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 5px;
+}
+.single-product-left-col-1 h1 {
+  font-weight: 200;
+}
+.product-desc {
+  margin-top: 20px;
+}
+.product-rating .fa, .fa-star,.fa-star-half-alt {
+  color: orange;
+  margin-right: 3px;
+}
+.product-desc .product.price {
+  font-weight: 500;
+}
+.product-desc .cross {
+  text-decoration: line-through;
+  font-weight: 500;
+}
+.product-desc .product-deal {
+  margin-top: 12px;
+  font-weight: 500;
+  color: #5d3fd3;
+}
+.product-desc .product-detail {
+  margin-top: 12px;
+  text-align: left;
+  font-weight: 400;
+}
+.product-services {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+.product-prices-detail {
+  margin-top: 12px;
+}
+.product-prices-detail p {
+  margin-bottom: 14px;
+}
+.product-prices-detail span {
+  font-weight: 600;
+}
+.product-color {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  align-items: center;
+}
+.product-color .color {
+  color: #555;
+}
+.light {
+  width: 20px;
+  display: block;
+  height: 20px;
+  border: none;
+  opacity: 0.5;
+  /* background-color: red; */
+  border-radius: 50%;
+}
+.light:hover{
+  opacity: 1;
+}
+.active{
+  opacity: 1;
+}
+/* .grey {
+  background-color: #555;
+}
+.light {
+  background-color: #f5f5f5;
+} */
+.quantity small {
+  font-size: 20px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.product-btn {
+  border: none;
+  background-color: #5d3fd3;
+  /* padding: 11px 1px; */
+  padding: 10px;
+  color: #fff;
+  margin-top: 12px;
+  width: 100px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.single-page-is-loading{
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+}
+
+
+@media (max-width:768px) {
+  .single-product-row {
+    display: block;
+    width: 100%;
+    /* padding: 6px; */
+  }
+  .single-product-left-col-1{
+      padding: 5px;
+  }
+}

@@ -1,0 +1,119 @@
+.products {
+  width: 60%;
+  margin: 10px auto 200px auto;
+}
+.products-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-search {
+  outline: none;
+  width: 120px;
+  padding: 5px;
+}
+.product-search {
+  padding: 9px;
+}
+.products-view .fas,
+.fa {
+  margin-right: 12px;
+  cursor: pointer;
+}
+.products-row input {
+  outline: none;
+  padding: 5px;
+  /* width: 10%; */
+  font-size: 16px;
+}
+.All-product-row {
+  display: flex;
+  justify-content: space-between;
+}
+.products-options,
+.product-color-search,
+.product-price2 {
+  margin-top: 20px;
+}
+.product-category p,
+.product-company,
+.product-company select {
+  margin-top: 12px;
+}
+.product-color-search1 {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-top: 12px;
+}
+.product-category-btn {
+  cursor: pointer;
+  display: block;
+  margin: 6px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  padding: 7px 6px;
+  text-transform: capitalize;
+  border-radius: 12px;
+}
+.product-category-btn-active {
+  background-color: #5d3fd3;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 6px;
+  outline: none;
+  border: none;
+  padding: 7px 6px;
+  text-transform: capitalize;
+  border-radius: 12px;
+}
+.product-color-search1 .red {
+  height: 19px;
+  width: 18px;
+  border-radius: 50%;
+  display: block;
+  border: none;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.product-active{
+  opacity: 1;
+  height: 19px;
+  width: 18px;
+  border-radius: 50%;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+.product-color-search1 .red:hover{
+  opacity: 1;
+}
+.product-price2 p {
+  padding: 10px 0 10px 0;
+}
+.product-btn2 {
+  margin-top: 12px;
+  padding: 12px 30px;
+  outline: none;
+  background-color: brown;
+  color: white;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+.All-products {
+  flex: 2;
+  margin-top: 20px;
+  display: grid;
+  /* height: 400px; */
+  /* align-content: center; */
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.products .active {
+  background-color: black;
+  color: white;
+  padding: 7px;
+}

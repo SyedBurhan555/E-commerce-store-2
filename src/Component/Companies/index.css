@@ -1,0 +1,28 @@
+.companies{
+   background-color: whitesmoke;
+   margin-bottom: 8%;
+   padding-bottom: 19px;
+}
+.companies-title{
+    color: #555;
+    text-align: center;
+    padding-top: 34px;
+}
+.companies-names{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(0);
+}
+.companies-names img:hover{
+    filter: grayscale(1);
+}
+
+@media(max-width: 768px){
+    .companies-names{
+        display: block;
+        text-align: center;
+    }
+}

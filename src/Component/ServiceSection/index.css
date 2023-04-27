@@ -1,0 +1,70 @@
+.service-section {
+  flex:1;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  display: flex;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  width: 60%;
+  gap: 20px;
+  justify-content: space-between;
+}
+.service-col-1 {
+  text-align: center;
+  background-color: #f5f5f5;
+  width: 26%;
+  padding: 16px 20px;
+  border-radius: 10px;
+}
+.service-col-1 .fa-truck,
+.fa-lock {
+  color: #5d3fd3;
+  font-size: 20px;
+  padding: 12px;
+}
+.service-col-1 h5 {
+  font-weight: 500;
+}
+.service-col-2 {
+  display: flex;
+  margin-bottom: 2px;
+  padding: 19px 50px;
+  /* margin-bottom: 20px; */
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+.service-col-2 .fa-shield-cross,
+.fa-hand-holding-usd {
+  color: #5d3fd3;
+  font-size: 20px;
+  margin-right: 12px;
+}
+.service-col-2 h5 {
+  font-weight: 500;
+}
+
+@media(max-width: 768px){
+  .row{
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .service-section {
+    display: block;
+    width: 100%;
+  }
+  .service-col-1{
+    width: auto;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: baseline;
+  }
+  .service-col-2 {
+    display: flex;
+    /* width: 199px; */
+    padding: 19px 32px;
+  }
+}
